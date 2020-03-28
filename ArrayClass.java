@@ -30,15 +30,15 @@ public class ArrayClass {
             mul_num = Math.pow(num, 2);
             System.out.println(mul_num);
         }
-
-        throw new InputMismatchException("Input Mismatch.");
     }
 
     public static void main(String[] args) {
         //calling method
-        try{array_data();
+        try{
+            array_data();
     }catch(InputMismatchException e){
-        System.out.println("Exception: " + e.getMessage());
+
+            System.out.println("Exception: Input Mismatch.");
     }
     }
 }
