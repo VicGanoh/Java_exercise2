@@ -33,9 +33,7 @@ public class Take_input {
         mul_num5 = Math.pow(num5,2);
         System.out.println("\nThe multiples of the numbers you entered are: \nFirst number: " + mul_num1 + "\nSecond number: " + mul_num2 );
         System.out.println("Third number: " + mul_num3 + "\nFourth number: " + mul_num4 + "\nFifth number: " + mul_num5);
-
-
-    }
+ }
 
     public static void main(String[] args) {
         try{Multiple();}
@@ -44,5 +42,4 @@ public class Take_input {
             System.out.println("Try again.");
         }
     }
-
 }
