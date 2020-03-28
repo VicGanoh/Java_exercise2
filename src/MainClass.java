@@ -33,7 +33,6 @@ public class MainClass extends MultipleClass {
         mul_num5 = Math.pow(num5,2);
         System.out.println("\nThe multiple of the numbers you entered are: \nFirst number: " + mul_num1 + "\nSecond number: " + mul_num2 );
         System.out.println("Third number: " + mul_num3 + "\nFourth number: " + mul_num4 + "\nFifth number: " + mul_num5);
-<<<<<<< HEAD:src/MainClass.java
         System.out.println();
 
         MultipleClass obj = new MultipleClass();  //instantiating object for MulitpleClass
@@ -43,13 +42,7 @@ public class MainClass extends MultipleClass {
         obj.mult(num3);
         obj.mult(num4);
         obj.mult(num5);
-
-
-
     }
-=======
- }
->>>>>>> cd11a3fd33ed4a85d60554ac0584f7640c09476e:src/Take_input/Take_input.java
 
     public static void main(String[] args) {
         //calling the method/function
@@ -59,7 +52,6 @@ public class MainClass extends MultipleClass {
             System.out.println("Exception: Input Mismatch");
             System.out.println("Try again.");
         }
-<<<<<<< HEAD:src/MainClass.java
 
         //Instantiating an object for Student
         Students student1 = new Students("P/SDS/AFE/242","Ganoh");
@@ -67,7 +59,5 @@ public class MainClass extends MultipleClass {
         int level_of_student = student1.level;
         System.out.println("Age:" + age_of_student);
         System.out.println("Level: "+ level_of_student);
-=======
->>>>>>> cd11a3fd33ed4a85d60554ac0584f7640c09476e:src/Take_input/Take_input.java
     }
 }
