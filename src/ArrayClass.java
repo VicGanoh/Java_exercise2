@@ -30,7 +30,6 @@ public class ArrayClass {
             mul_num = Math.pow(num, 2);
             System.out.println(mul_num);
         }
-
     }
 
     public static void main(String[] args) {
